@@ -4,7 +4,7 @@
 
 ## บท 01
 
-[เปิดบทเรียนฉบับอ่าน](chapters/01/README.md) · [บทพูดสำหรับเตรียมวิดีโอ](chapters/01/recording-pack.md)
+[เปิดบทเรียนฉบับอ่าน](chapters/01/README.md) · [เรียนผ่านภาพ](chapters/01/visual-guide.md)
 
 ### หน่วยงานไทย
 
@@ -21,6 +21,12 @@
 - [Datla และ Parr, Introduction to Optical Radiometry, หน้า 8](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=104704) — irradiance เป็นกำลังรังสีตกกระทบต่อพื้นที่
 - [Australian Bureau of Meteorology, Solar Radiation Definitions, ส่วน Radiation units](https://www.bom.gov.au/climate/austmaps/solar-radiation-glossary.shtml) — irradiance กับ radiant exposure และการรวมตามเวลา
 - [JCGM Annotated VIM3 ข้อ 2.3](https://jcgm.bipm.org/vim/en/2.3.html) — ปริมาณที่ตั้งใจวัดหรือ measurand
+
+### เครื่องมือและภาพประกอบ
+
+- [Hukseflux — NR01 brochure หน้า 2–3](https://www.hukseflux.com/uploads/product-documents/NR01_v2301.pdf) — องค์ประกอบรังสีสี่ส่วน ได้แก่ คลื่นสั้นเข้า–ออกและคลื่นยาวเข้า–ออก การใช้ pyranometer วัดคลื่นสั้นและ pyrgeometer วัดคลื่นยาว และการคำนวณรังสีสุทธิของเครื่องมือตัวอย่าง
+- ภาพถ่าย [SR11](https://commons.wikimedia.org/wiki/File:Hukseflux_radiometer_sr11_photo.jpg) และ [NR01](https://commons.wikimedia.org/wiki/File:Hukseflux_netto_radiometer_nr01_photo.jpg) — ผลงานของ Hukseflux เผยแพร่เป็น Public domain (PD-self) บน Wikimedia Commons ใช้แสดงรูปร่างของตัวอย่างเครื่องมือ ไม่ใช้ยืนยันรุ่นที่ผู้เล่าหรือ คพ. ใช้งาน
+- [เครดิตภาพและรายละเอียดภาพสร้าง/กราฟ](chapters/01/assets/README.md) — แยกภาพถ่าย ภาพหลักการที่สร้างด้วย AI และกราฟจากข้อมูลสมมติ
 
 ## บท 04 ตอน 1
 
