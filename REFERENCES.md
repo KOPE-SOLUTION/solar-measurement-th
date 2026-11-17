@@ -24,8 +24,13 @@
 
 ### เครื่องมือและภาพประกอบ
 
+- [Hukx — Solar radiation sensors: become a pyranometer expert](https://www.hukx.com/us/library/solar-radiation-sensors-become-a-pyranometer-expert) — หัวข้อ The physics behind thermopile pyranometers: ผิวดูดกลืนรังสี ความต่างอุณหภูมิ และแรงดันของ thermopile
+- [Apogee — คู่มือ SP-212/SP-215](https://www.apogeeinstruments.com/content/SP-212-215-manual.pdf) — หน้า 5 และ 9: diffuser, photodiode, วงจร และการตอบสนองตามความยาวคลื่น; [หน้ากลุ่ม silicon-cell](https://www.apogeeinstruments.com/silicon-cell-pyranometers/) ใช้ดูรูปและตัวเลือกเอาต์พุต; [หน้ากลุ่ม pyranometer](https://www.apogeeinstruments.com/pyranometer/) ใช้ตัวอย่างว่าผู้ผลิตมีทั้ง silicon-cell และ thermopile ที่ระบุ Class C
+- [IMT — Silicon Irradiance Sensors for Measurement of Solar Irradiance](https://imt-technology.com/fileadmin/docs/en/products/DS_Si-Sensors_EN_2024-06.pdf) — หน้า 2–3: เซลล์ซิลิคอนกับ shunt การสอบเทียบและชดเชยอุณหภูมิตามรุ่น โครงสร้างคล้ายโมดูล PV และอินเทอร์เฟซ ข้อมูลนี้อธิบายเครื่องมือของผู้ผลิต ไม่ยืนยันรุ่นในภาพจาก Commons หรือรุ่นในประสบการณ์ผู้เล่า
+- [ISO 9060:2018](https://www.iso.org/standard/67464.html) — ขอบเขตการจัดประเภทเครื่องมือและสถานะยืนยันมาตรฐานในปี 2024; [Hukx — ISO 9060 pyranometer classification หน้า 1–3](https://www.hukx.com/uploads/ISO-9060-pyranometer-classification.pdf?v=1765534259) — Class A/B/C และคุณสมบัติเพิ่มเติม spectrally flat/fast response ไม่ใช้แทนการประเมินความไม่แน่นอนรายระบบ
 - [Hukseflux — NR01 brochure หน้า 2–3](https://www.hukseflux.com/uploads/product-documents/NR01_v2301.pdf) — องค์ประกอบรังสีสี่ส่วน ได้แก่ คลื่นสั้นเข้า–ออกและคลื่นยาวเข้า–ออก การใช้ pyranometer วัดคลื่นสั้นและ pyrgeometer วัดคลื่นยาว และการคำนวณรังสีสุทธิของเครื่องมือตัวอย่าง
 - ภาพถ่าย [SR11](https://commons.wikimedia.org/wiki/File:Hukseflux_radiometer_sr11_photo.jpg) และ [NR01](https://commons.wikimedia.org/wiki/File:Hukseflux_netto_radiometer_nr01_photo.jpg) — ผลงานของ Hukseflux เผยแพร่เป็น Public domain (PD-self) บน Wikimedia Commons ใช้แสดงรูปร่างของตัวอย่างเครื่องมือ ไม่ใช้ยืนยันรุ่นที่ผู้เล่าหรือ คพ. ใช้งาน
+- ภาพ [PV reference cell](https://commons.wikimedia.org/wiki/File:PV_reference_cell_mounted_in_plane_of_array_for_irradiance_measurement.jpg) โดย SerkanEmr — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); ใช้ภาพต้นฉบับไม่แก้ไขเพื่อเปรียบเทียบรูปร่าง
 - [เครดิตภาพและรายละเอียดภาพสร้าง/กราฟ](chapters/01/assets/README.md) — แยกภาพถ่าย ภาพหลักการที่สร้างด้วย AI และกราฟจากข้อมูลสมมติ
 
 ## แหล่งสำหรับบท 04 ตอน 1 ซึ่งอยู่ในแผน
@@ -47,7 +52,7 @@
 - [NIST Policy on Metrological Traceability](https://www.nist.gov/calibrations/traceability) — ความสอบกลับได้และความเหมาะสมต่อการใช้งาน
 - [pvlib Time and time zones](https://pvlib-python.readthedocs.io/en/stable/user_guide/modeling_topics/timetimezones.html) — เวลาและ timezone
 - [JCGM VIM3 ข้อ 2.39](https://jcgm.bipm.org/vim/en/2.39.html) และ [NIST Models for instrument calibration](https://www.itl.nist.gov/div898/handbook/mpc/section3/mpc361.htm) — นิยาม calibration และแบบจำลอง
-- [pvlib ineichen](https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.clearsky.ineichen.html) — อินพุตและผลลัพธ์ของแบบจำลอง Ineichen–Perez
+- [pvlib ineichen](https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.clearsky.ineichen.html) — ตรวจชื่อฟังก์ชัน อินพุต และผลลัพธ์ของ **Ineichen–Perez**: clear-sky GHI/DNI/DHI ใช้รองรับคำแนะนำแบบจำลองในภาพรวม ส่วนบทที่ 8 ฉบับเต็มยังอยู่ในแผน คำอ่านไทยเป็นการถอดเสียงโดยประมาณ ไม่ใช่ข้อมูลการออกเสียงจาก pvlib
 - [Reno และ Hansen (2016) หน้าผลงาน Sandia](https://www.sandia.gov/research/publications/details/identification-of-periods-of-clear-sky-irradiance-in-time-series-of-ghi-mea-2016-05-01/) และ [บทความต้นฉบับ](https://doi.org/10.1016/j.renene.2015.12.031) — ต้องอ่านส่วนวิธีวิจัยเพิ่มเติมก่อนผลิตบทเต็ม
 - [pvlib detect_clearsky](https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.clearsky.detect_clearsky.html) — implementation หน้าต่าง พารามิเตอร์ และ alpha
 - [Best Practices Handbook for the Collection and Use of Solar Resource Data for Solar Energy Applications, Fourth Edition (2024)](https://doi.org/10.2172/2448063) — แหล่งสำหรับอ่านเพิ่มเรื่องเครื่องมือและคุณภาพข้อมูล
