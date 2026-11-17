@@ -1,0 +1,35 @@
+# Local and temporary files
+/work/
+/recordings/
+/exports/
+/data/raw/
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+.codex/
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+
+# Raw media and editing projects
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.mkv
+*.aup3
+*.prproj
+*.drp
