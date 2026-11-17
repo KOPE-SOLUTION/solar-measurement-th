@@ -1,4 +1,4 @@
-# ชนิดเซ็นเซอร์ ตัวรับรังสี และ Class
+# ชนิดตัวรับรังสีและการจัดชั้นสมรรถนะของเครื่องมือ (Class)
 
 [← บทที่ 1](README.md) · [เรียนผ่านภาพ](visual-guide.md)
 
@@ -8,7 +8,7 @@
 
 ภาพนี้เป็นภาพอธิบายหลักการที่สร้างขึ้น ไม่ใช่ภาพตัดภายในของรุ่นจริง จัดเป็นสองหลักการรับรังสีกับสามตัวอย่างรูปแบบอุปกรณ์เพื่อช่วยเรียนรู้
 
-## 1. แยกคำว่า Type ออกเป็นสี่คำถาม
+## 1. หัวข้อสเปก: ปริมาณที่วัด ตัวรับรังสี Class และเอาต์พุต
 
 | คำถาม | ตัวอย่างคำในคู่มือ | บอกอะไร |
 |---|---|---|
@@ -21,7 +21,7 @@ SRAD/NRAD เป็นรหัสช่องข้อมูลตามเอ�
 
 ตัวอย่างรูปแบบเอาต์พุตอ้างจาก [Apogee — Silicon-cell pyranometers](https://www.apogeeinstruments.com/silicon-cell-pyranometers/) และ [IMT — Sensor Types หน้า 3](https://imt-technology.com/fileadmin/docs/en/products/DS_Si-Sensors_EN_2024-06.pdf)
 
-## 2. Thermopile: ดูดกลืนรังสีแล้ววัดผลจากความร้อน
+## 2. Thermopile: การวัดรังสีด้วยความต่างอุณหภูมิ
 
 ![ภาพตัวอย่างไพราโนมิเตอร์แบบโดม Hukseflux SR11](assets/pyranometer-sr11.jpg)
 
@@ -29,7 +29,7 @@ SRAD/NRAD เป็นรหัสช่องข้อมูลตามเอ�
 
 **จุดสังเกต:** หลายรุ่นมีผิวดำใต้โดมแก้ว แต่ยังต้องตรวจ detector ในคู่มือ ภาพ SR11 โดย [Hukseflux / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hukseflux_radiometer_sr11_photo.jpg), Public domain
 
-## 3. Silicon photodiode: ตัวรับแสงขนาดเล็กใต้ชุดกระจายแสง
+## 3. Silicon photodiode: การวัดรังสีด้วยโฟโตไดโอด
 
 ![ภาพ silicon-cell pyranometer จากเว็บไซต์ผู้ผลิต Apogee](https://www.apogeeinstruments.com/content/images/sp-100-header.jpg)
 
@@ -51,7 +51,7 @@ SRAD/NRAD เป็นรหัสช่องข้อมูลตามเอ�
 
 คำว่า **reference cell** เป็นชื่อเครื่องมือกลุ่มนี้ การจะนำมาเป็นเครื่องอ้างอิงในการทดสอบต้องตรวจใบสอบเทียบ ความไม่แน่นอน และความเหมาะสมกับสิ่งที่ตั้งใจวัดเพิ่มเติม
 
-## 5. Class A/B/C จัดอย่างไร
+## 5. การจัดชั้น Class A/B/C ตาม ISO 9060:2018
 
 ISO 9060:2018 จัดเครื่องมือตามสมรรถนะจากการทดสอบ หน้า ISO ระบุว่าฉบับนี้ได้รับการยืนยันในปี 2024 และยังเป็นฉบับปัจจุบัน ณ วันที่ตรวจ 17 พฤศจิกายน 2026 ([ISO](https://www.iso.org/standard/67464.html))
 
@@ -61,7 +61,7 @@ ISO 9060:2018 จัดเครื่องมือตามสมรรถน
 
 คำว่า **spectrally flat** และ **fast response** เป็นคุณสมบัติเพิ่มเติมที่ต้องดูตามข้อกำหนด ส่วน “Class A” ที่อ้าง **IEC 61724-1** ในเอกสารติดตามระบบ PV ต้องอ่านตามมาตรฐานนั้น ไม่ควรนำไปแทน “Class A ตาม ISO 9060” โดยอัตโนมัติ ([Hukx หน้า 3](https://www.hukx.com/uploads/ISO-9060-pyranometer-classification.pdf?v=1765534259), [IMT หน้า 2](https://imt-technology.com/fileadmin/docs/en/products/DS_Si-Sensors_EN_2024-06.pdf))
 
-## 6. แล้ว NRAD ใช้เซ็นเซอร์ประเภทไหน
+## 6. เครื่องมือวัดรังสีสุทธิและการรายงาน NRAD
 
 ![NovaLynx 240-8110 ตัวอย่างเครื่องวัดรังสีสุทธิที่มีโดมพลาสติก](assets/net-radiometer-novalynx-240-8110.png)
 
