@@ -10,8 +10,8 @@
 | [net-radiometer-nr01.jpg](net-radiometer-nr01.jpg) | ภาพถ่าย Hukseflux NR01 โดย Hukseflux, 800 × 600 px; [หน้าต้นฉบับ](https://commons.wikimedia.org/wiki/File:Hukseflux_netto_radiometer_nr01_photo.jpg) | เจ้าของผลงานเผยแพร่เป็น Public domain (PD-self) เก็บภาพต้นฉบับโดยไม่แก้ไข |
 | [pv-reference-cell.jpg](pv-reference-cell.jpg) | ภาพถ่าย PV reference cell โดย SerkanEmr, 2,000 × 1,994 px; [หน้าต้นฉบับ](https://commons.wikimedia.org/wiki/File:PV_reference_cell_mounted_in_plane_of_array_for_irradiance_measurement.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); ไม่แก้ไขภาพต้นฉบับ คงใบอนุญาตของภาพนี้แยกจากเนื้อหาโครงการ |
 | [srad-nrad-radiation-flow.png](srad-nrad-radiation-flow.png) | ภาพอธิบายหลักการ สร้างด้วยเครื่องมือ imagegen ภายใน Codex (built-in tool mode) | เป็นภาพสร้างด้วย AI ไม่ใช่ภาพถ่ายหรือแบบจำลองผลิตภัณฑ์จริง ตรวจชื่อ หน่วย และทิศลูกศรเทียบหลักการแล้ว |
-| [irradiance-vs-irradiation.png](irradiance-vs-irradiation.png) | กราฟสร้างจากตัวเลขสมมติด้วย Matplotlib, 1920 × 1080 px | รังสีคงที่ในแต่ละกรณี; แกนทั้งสองกราฟมีสเกลเดียวกัน: 800 × 0.5 = 400 × 1 = 400 Wh/m² |
-| [two-interval-energy.png](two-interval-energy.png) | กราฟสร้างจากตัวเลขสมมติด้วย Matplotlib, 1920 × 1080 px | รังสีคงที่ในแต่ละช่วง: 800 × 0.25 + 400 × 0.25 = 300 Wh/m² |
+| [irradiance-vs-irradiation.png](irradiance-vs-irradiation.png) | กราฟต้นฉบับสร้างจากตัวเลขสมมติด้วย Matplotlib; เพิ่มโลโก้ด้วย imagegen, ฉบับปัจจุบัน 1672 × 941 px | รังสีคงที่ในแต่ละกรณี; แกนทั้งสองกราฟมีสเกลเดียวกัน: 800 × 0.5 = 400 × 1 = 400 Wh/m² |
+| [two-interval-energy.png](two-interval-energy.png) | กราฟต้นฉบับสร้างจากตัวเลขสมมติด้วย Matplotlib; เพิ่มโลโก้ด้วย imagegen, ฉบับปัจจุบัน 1672 × 941 px | รังสีคงที่ในแต่ละช่วง: 800 × 0.25 + 400 × 0.25 = 300 Wh/m² |
 | [area-one-vs-two.png](area-one-vs-two.png) | ภาพสร้างด้วย imagegen | รังสีสม่ำเสมอบนระนาบเดียวกัน: 800 × 1 = 800 W และ 800 × 2 = 1,600 W |
 | [sensor-detector-types.png](sensor-detector-types.png) | ภาพสร้างด้วย imagegen | แสดงหลักการ ไม่ใช่ภาพตัดภายในรุ่นจริง: thermopile, silicon photodiode, PV reference cell |
 | [quiz-01-time.png](quiz-01-time.png) · [เฉลย](quiz-01-time-answer.png) | ภาพสร้างด้วย imagegen | ข้อมูลสมมติ: 500 × 15/60 = 125 Wh/m² |
@@ -20,6 +20,8 @@
 | [quiz-04-noon.png](quiz-04-noon.png) · [เฉลย](quiz-04-noon-answer.png) | ภาพสร้างด้วย imagegen | มีข้อมูลเฉพาะตอนเที่ยง เครื่องหมายคำถามหมายถึงไม่มีข้อมูล ไม่ใช่รังสีศูนย์ |
 
 ภาพหลักการ กราฟ และการ์ดโจทย์ที่โครงการสร้างเองใช้ [CC BY 4.0](../../../LICENSE) ตาม [ขอบเขตใบอนุญาต](../../../LICENSING.md) ภาพที่สร้างด้วย AI ใช้เครื่องมือ imagegen ภายใน Codex; ภาพพื้นที่เป็นภาพอธิบาย ไม่ใช้ขนาดพิกเซลแทนมาตรวัด
+
+ภาพที่โครงการสร้างเองทั้ง 12 ภาพแสดงโลโก้ **KOPE SOLUTION** เพื่อระบุผู้จัดทำ โดยใช้โลโก้แนวนอนจากไฟล์ที่ผู้จัดทำให้มา และเพิ่มด้วย imagegen ภายใน Codex เมื่อ 17 พฤศจิกายน 2026 ตรวจข้อความ หน่วย ตัวเลข และองค์ประกอบการสอนหลังเพิ่มโลโก้แล้ว ภาพถ่ายจากแหล่งภายนอกไม่ได้เพิ่มโลโก้โครงการและคงเครดิตเดิม
 
 เครดิตภาพถ่าย Hukseflux: “Hukseflux / Wikimedia Commons / Public domain” เครดิตภาพ PV reference cell: “SerkanEmr / Wikimedia Commons / CC BY-SA 4.0 / ไม่แก้ไขภาพ” พร้อมลิงก์หน้าต้นฉบับและใบอนุญาตตามตาราง
 
