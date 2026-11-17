@@ -19,14 +19,3 @@
 [Hukseflux — NR01 brochure หน้า 2–3](https://www.hukseflux.com/uploads/product-documents/NR01_v2301.pdf) อธิบายการใช้ pyranometer วัดรังสีดวงอาทิตย์ และ pyrgeometer วัดคลื่นยาว โดยเครื่อง NR01 วัดสี่องค์ประกอบเพื่อหารังสีสุทธิ ส่วน [FAO — Net radiation](https://www.fao.org/4/X0490E/x0490e07.htm) รองรับหลักการสมดุลรังสีเข้าและออก
 
 รหัส SRAD/NRAD ในเอกสาร คพ. เป็นรหัสช่องข้อมูล การใช้ภาพเครื่องมือตัวอย่างไม่ได้ทำให้รหัสนั้นเป็นชื่อรุ่นหรือข้อกำหนดชนิดเซ็นเซอร์สากล
-
-<details>
-<summary>คำสั่งที่ใช้สร้างภาพอธิบาย SRAD/NRAD</summary>
-
-ใช้ built-in imagegen โดยไม่ส่งภาพถ่ายสองรูปเป็นภาพอ้างอิง ภาพที่ได้เก็บไว้ใน repository โดยไม่แก้ไข
-
-```text
-Create an accurate educational visual for a Thai YouTube course on solar radiation measurement. Landscape 16:9, 1920x1080 if possible, crisp modern flat scientific illustration, clean warm off-white background, navy typography, orange for shortwave solar radiation, purple for longwave thermal radiation, teal ground. Two equal large panels, generous whitespace, very little text. LEFT panel: heading exactly 'SRAD', subtitle exactly 'Solar Radiation', a simple sun and small cloud above a horizontal ground plane, orange rays coming DOWN from the sun and sky onto a small generic upward-facing pyranometer with a glass dome. It measures incoming solar radiation. Label exactly 'รังสีดวงอาทิตย์'. RIGHT panel: heading exactly 'NRAD', subtitle exactly 'Net Radiation', horizontal ground plane with a small generic net-radiometer on a boom above it. Show FOUR clearly separated vertical directional arrows crossing the same imaginary measurement level: orange DOWN arrow labelled 'SW ↓', orange UP arrow labelled 'SW ↑', purple DOWN arrow labelled 'LW ↓', purple UP arrow labelled 'LW ↑'. Downward arrows must point toward the ground and upward arrows toward the sky. These represent incoming solar, reflected solar, incoming longwave from atmosphere and outgoing longwave from ground. The sky region over the right panel must include a small cloud as atmospheric source of downwelling longwave. Beneath the four arrows one short label exactly 'เข้า − ออก'. Beneath the right panel label exactly 'รังสีสุทธิ'. Both panels share a single bottom unit label exactly 'W/m²'. Tiny footer exactly 'ภาพอธิบายหลักการ'. Scientifically correct arrow orientation is critical. No gas equipment, no buildings, no people, no brand names, no actual product models, no additional paragraphs or equations. Illustrative conceptual instruments, not product photographs. Clear enough on a phone screen.
-```
-
-</details>

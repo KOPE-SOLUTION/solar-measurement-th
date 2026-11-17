@@ -28,7 +28,7 @@
 - ภาพถ่าย [SR11](https://commons.wikimedia.org/wiki/File:Hukseflux_radiometer_sr11_photo.jpg) และ [NR01](https://commons.wikimedia.org/wiki/File:Hukseflux_netto_radiometer_nr01_photo.jpg) — ผลงานของ Hukseflux เผยแพร่เป็น Public domain (PD-self) บน Wikimedia Commons ใช้แสดงรูปร่างของตัวอย่างเครื่องมือ ไม่ใช้ยืนยันรุ่นที่ผู้เล่าหรือ คพ. ใช้งาน
 - [เครดิตภาพและรายละเอียดภาพสร้าง/กราฟ](chapters/01/assets/README.md) — แยกภาพถ่าย ภาพหลักการที่สร้างด้วย AI และกราฟจากข้อมูลสมมติ
 
-## บท 04 ตอน 1
+## แหล่งสำหรับบท 04 ตอน 1 ซึ่งอยู่ในแผน
 
 - [JCGM VIM3 ข้อ 5.18](https://jcgm.bipm.org/vim/en/5.18.html) — ค่าอ้างอิง
 - [JCGM VIM3 ข้อ 2.16](https://jcgm.bipm.org/vim/en/2.16.html) — measurement error
