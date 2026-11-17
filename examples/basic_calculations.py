@@ -24,6 +24,9 @@ if __name__ == "__main__":
         print(level, duration, irradiation_wh_m2(level, duration))
     total = irradiation_wh_m2(800, 15) + irradiation_wh_m2(400, 15)
     print("Two intervals (800 for 15 min, 400 for 15 min):", total, "Wh/m2")
+    print("Chapter 01: uniform irradiance [W/m2], area [m2], incident power [W]")
+    for level, area in [(800, 1), (800, 2), (600, 2)]:
+        print(level, area, level * area)
 
     print("Chapter 04: reference, test, signed difference, magnitude, percent")
     for reference, test in [(800, 840), (800, 760), (1000, 1020), (200, 220),

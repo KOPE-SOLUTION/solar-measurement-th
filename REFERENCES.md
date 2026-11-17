@@ -1,9 +1,22 @@
 # แหล่งอ้างอิง
 
-แหล่งด้านล่างรองรับเฉพาะประเด็นที่ระบุ ตัวเลขและสถานการณ์ในบทเรียนเป็นตัวอย่างสมมติของผู้จัดทำ ข้อมูลบรรณานุกรมและส่วนที่ใช้ตรวจอ่านเมื่อ 17 พฤศจิกายน 2026
+แหล่งด้านล่างรองรับเฉพาะประเด็นที่ระบุ โจทย์คำนวณและตัวเลขตัวอย่างเป็นข้อมูลสมมติของผู้จัดทำ ส่วนเรื่องเปิดบทที่ 1 เป็นประสบการณ์ที่ผู้จัดทำเล่า ข้อมูลบรรณานุกรมและส่วนที่ใช้ตรวจอ่านเมื่อ 17 พฤศจิกายน 2026
 
 ## บท 01
 
+[เปิดบทเรียนฉบับอ่าน](chapters/01/README.md) · [บทพูดสำหรับเตรียมวิดีโอ](chapters/01/recording-pack.md)
+
+### หน่วยงานไทย
+
+- [กรมควบคุมมลพิษ — ประกาศข้อกำหนดการปฏิบัติงานและโครงสร้างข้อมูลตามกรอบการกำกับดูแลข้อมูล เรื่อง การกำกับดูแลข้อมูลจากสถานีตรวจวัดอัตโนมัติด้านคุณภาพอากาศ](https://epo14.pcd.go.th/th/download/?file=oHM3ERkDoF5aAKD3nGE4BKN3oGO3Z0j3oGOaZUD4nGM4ZKNmoGO3BHjloGAaZaDjnGW4YKNmoGW3Z0jmoGMaZUDmnGq4ZUNjoGu3AxjkoGAaZUD5nGW4Z3NloGO3ZxjgoJIaoUEcnJM4Y3OyoJk3nHkzoF9aqKEcnGM4AaNkoF93MRkuoJ9aoUEjnKI4YjWewEb3QWewEb3Q&n=8E8F~1&t=GTMgq2qxqS9cMUug) — ตรวจตาราง Attribute แถว SRAD และ NRAD: ค่ารังสีดวงอาทิตย์และค่ารังสีสุทธิ โดยแสดงหน่วย w/m2 ทั้งคู่ บทเรียนปรับรูปแบบหน่วยเป็น W/m² ตาม SI เอกสารเผยแพร่ผ่าน [สำนักงานสิ่งแวดล้อมและควบคุมมลพิษที่ 14](https://epo14.pcd.go.th/th/information/more/1425/page/2)
+- [กรมอุตุนิยมวิทยา — การแผ่รังสี Radiation](https://www5.tmd.go.th/info/การแผรงส) — ใช้เฉพาะหัวข้อ Irradiance และ Irradiation เพื่อประกอบนิยามรังสีต่อพื้นที่และความสัมพันธ์กับเวลา กรณีคูณระดับรังสีกับระยะเวลาในบทเรียนกำหนดให้รังสีคงที่หรือใช้ค่าเฉลี่ยตามเวลาของช่วงนั้น
+- [สถาบันมาตรวิทยาแห่งชาติ — ศัพท์มาตรวิทยาระหว่างประเทศ (VIM) ฉบับไทย–อังกฤษ, JCGM 200:2008 (En/Th)](https://mx.nimt.or.th/wp-content/uploads/2020/06/6.VIM-3rd-Edition_E-TH.pdf) — ข้อ 1.19 หน้าเอกสาร 15 (หน้าไฟล์ PDF 30) เรื่องค่าปริมาณ และข้อ 2.3 หน้าเอกสาร 21 (หน้าไฟล์ PDF 36) เรื่องสิ่งที่เจตนาวัด ฉบับนี้เป็นการเผยแพร่ศัพท์สากลพร้อมคำแปลไทย
+
+ชื่อช่องและหน่วยตามเอกสาร คพ. ใช้อธิบายโครงสร้างข้อมูลในเอกสารนั้น ไม่ยืนยันรุ่นเครื่องมือ ช่วงคลื่น กติกาเครื่องหมาย หรือช่วงเฉลี่ยของตู้ที่ผู้จัดทำเคยพบ รายการตรวจบริบทและตัวอย่างประโยครายงานเป็นข้อเสนอเพื่อการสอนของผู้จัดทำ
+
+### แหล่งสากล
+
+- [FAO, Irrigation and Drainage Paper 56, Chapter 3 — Meteorological data](https://www.fao.org/4/X0490E/x0490e07.htm) — หัวข้อ Net radiation อธิบายสมดุลรังสีเข้าและออกที่รวมคลื่นสั้นและคลื่นยาว ใช้อธิบายหลักการรังสีสุทธิ ไม่ใช้รับรองรายละเอียดของช่อง NRAD ในระบบใดระบบหนึ่ง
 - [NIST SP 330 ส่วน 2 ตาราง 4–5](https://www.nist.gov/pml/special-publication-330/sp-330-section-2) — หน่วยกำลัง W และ irradiance W/m²
 - [Datla และ Parr, Introduction to Optical Radiometry, หน้า 8](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=104704) — irradiance เป็นกำลังรังสีตกกระทบต่อพื้นที่
 - [Australian Bureau of Meteorology, Solar Radiation Definitions, ส่วน Radiation units](https://www.bom.gov.au/climate/austmaps/solar-radiation-glossary.shtml) — irradiance กับ radiant exposure และการรวมตามเวลา
