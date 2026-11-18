@@ -1,6 +1,6 @@
 # แหล่งอ้างอิง
 
-แหล่งด้านล่างรองรับเฉพาะประเด็นที่ระบุ โจทย์คำนวณและตัวเลขตัวอย่างเป็นข้อมูลสมมติของผู้จัดทำ ส่วนเรื่องเปิดบทนำ (EP 0) เป็นประสบการณ์ที่ผู้จัดทำเล่า ข้อมูลบรรณานุกรมและส่วนที่ใช้ตรวจอ่านเมื่อ 17 พฤศจิกายน 2026
+แหล่งด้านล่างรองรับเฉพาะประเด็นที่ระบุ โจทย์คำนวณและตัวเลขตัวอย่างเป็นข้อมูลสมมติของผู้จัดทำ ส่วนเรื่องเปิดบทนำ (EP 0) เป็นประสบการณ์ที่ผู้จัดทำเล่า ข้อมูลบรรณานุกรมและส่วนที่ใช้ตรวจอ่านเมื่อ 17 พฤศจิกายน 2026 ยกเว้นบทที่ 2 (EP 2) ซึ่งตรวจอ่านเมื่อ 18 พฤศจิกายน 2026
 
 ## บทนำ (EP 0) — SRAD, NRAD และชนิดเซ็นเซอร์วัดรังสี
 
@@ -47,6 +47,27 @@
 - [JCGM Annotated VIM3 ข้อ 2.3](https://jcgm.bipm.org/vim/en/2.3.html) — ปริมาณที่ตั้งใจวัดหรือ measurand
 
 [เครดิตภาพบทที่ 1](chapters/01/assets/README.md) — ภาพพื้นที่ กราฟ และแบบฝึกหัดสร้างจากข้อมูลสมมติของผู้จัดทำ
+
+## บทที่ 2 (EP 2) — รังสีตรง รังสีกระจาย และ GHI/DNI/DHI
+
+[เปิดบทเรียนฉบับอ่าน](chapters/02/README.md) · [เรียนผ่านภาพ](chapters/02/visual-guide.md)
+
+ตรวจอ่านส่วนที่ระบุเมื่อ 18 พฤศจิกายน 2026
+
+### หน่วยงานไทย
+
+- [กรมอุตุนิยมวิทยา — การแผ่รังสี Radiation](https://www5.tmd.go.th/info/การแผรงส) — หัวข้อ Sky radiation, Direct solar radiation, Diffuse solar radiation และ Global radiation ใช้รองรับการกระเจิงและนิยามองค์ประกอบรังสีบนแนวราบ บทเรียนใช้คำว่า “รังสีรวมบนแนวราบ” สำหรับ GHI และแยกจากรังสีคลื่นยาวจากโลก
+
+### แหล่งสากล
+
+- [Sandia PVPMC — Irradiance & Insolation](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/irradiance-insolation/) — การระบุ collection plane และส่วนของรังสี เพื่อแยก GHI/DNI/DHI
+- [Sandia PVPMC — Global Horizontal Irradiance](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/irradiance-insolation/global-horizontal-irradiance/) — นิยาม GHI และ pyranometer บนแนวราบ
+- [Sandia PVPMC — Direct Normal Irradiance](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/irradiance-insolation/direct-normal-irradiance/) — Pyrheliometer, มุมมองเครื่องมือ, การติดตามดวงอาทิตย์ และการประมาณ DNI เมื่อมีข้อมูลเพิ่มเติม
+- [Sandia PVPMC — Diffuse Horizontal Irradiance](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/irradiance-insolation/diffuse-horizontal-irradiance/) — การบังลำแสงด้วยจาน ลูกกลม หรือแถบบัง และการแก้ผลจากรังสีกระจายส่วนที่ถูกบัง
+- [Australian Bureau of Meteorology — Solar and Terrestrial Radiation: Glossary](https://www.bom.gov.au/climate/austmaps/solar-radiation-glossary.shtml) — หัวข้อ Radiation, Direct solar irradiance, Diffuse solar irradiance และ Global solar irradiance; ใช้สมการองค์ประกอบบนแนวราบและตัวคูณ cos ของมุมเซนิท
+- [Sandia PVPMC — Plane of Array Irradiance](https://pvpmc.sandia.gov/modeling-guide/1-weather-design-inputs/plane-of-array-poa-irradiance/) — ส่วนตรงบนระนาบ ส่วนกระจายจากท้องฟ้า และส่วนสะท้อนจากพื้นดิน สำหรับอธิบายความต่างระหว่าง POA กับ GHI
+
+[เครดิตภาพบทที่ 2](chapters/02/assets/README.md) — ภาพหลักการและกราฟต้นฉบับ 7 ภาพพร้อมไฟล์ SVG ตัวเลขและแบบฝึกหัดเป็นข้อมูลสมมติ คำอ่านไทยเป็นการถอดเสียงโดยประมาณของผู้จัดทำ ไม่ใช่ข้อมูลการออกเสียงจากแหล่งข้างต้น
 
 ## แหล่งสำหรับบท 04 ตอน 1 ซึ่งอยู่ในแผน
 
